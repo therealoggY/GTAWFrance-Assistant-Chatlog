@@ -1,17 +1,17 @@
-# GTA World Chat Log Assistant
-This program is used to convert the chat logs generated while playing on GTA World into readable text.
+# Assistant de Chatlog GTA World
+Ce programme est utilisé pour convertir les logs générés durant votre session de jeu sur GTA World en texte lisible.
 
 ![](header.png)
 
-## Getting Started
+## Commencer
 
-No installation is required. Simply download the latest [release](https://github.com/therealoggY/GTAWFrance-Assistant-Chatlog/releases) and run the executable.
+Aucune installation n'est requise. Téléchargez simplement la dernière version du [release](https://github.com/therealoggY/GTAWFrance-Assistant-Chatlog/releases) et éxecutez l'executable.
 
 ## Building
 
-The NuGet package dependencies must be restored before compiling the project.
+Les dépendances du package NuGet doivent être restaurées avant de compiler le projet. 
 
-## Contributing
+## Contribution
 
 1. Fork Project (<https://github.com/your_name/GTAW-Log-Parser>)
 2. Create Branch (`git checkout -b branch_name`)
@@ -22,6 +22,10 @@ The NuGet package dependencies must be restored before compiling the project.
 ## Roadmap
 
 - Switch to .NET Core 4.8, then .NET 5 (when available)
+
+## Crédits
+
+- All the credits goes to @MapleToo, you can find the original project on : https://github.com/MapleToo/GTAW-Log-Parser
 
 ## Additional Information
 
