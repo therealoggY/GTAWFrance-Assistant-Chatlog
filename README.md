@@ -5,7 +5,7 @@ This program is used to convert the chat logs generated while playing on GTA Wor
 
 ## Getting Started
 
-No installation is required. Simply download the latest [release](https://github.com/MapleToo/GTAW-Log-Parser/releases) and run the executable.
+No installation is required. Simply download the latest [release](https://github.com/therealoggY/GTAWFrance-Assistant-Chatlog/releases) and run the executable.
 
 ## Building
 
@@ -21,7 +21,7 @@ The NuGet package dependencies must be restored before compiling the project.
 
 ## Roadmap
 
-- Switch to .NET Core 3.1, then .NET 5 (when available)
+- Switch to .NET Core 4.8, then .NET 5 (when available)
 
 ## Additional Information
 
