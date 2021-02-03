@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Assistant ChatLog pour GTA World France.
+
+Version installée: {0} {1}
+Chemin des ressources: {2}</value>
+  </data>
+  <data name="AdvancedFilter" xml:space="preserve">
+    <value>Filtre avancé</value>
+  </data>
+  <data name="AlreadyExistingDirectoriesWarning" xml:space="preserve">
+    <value>parce que les "{0}" chemins already existent déjà.</value>
+  </data>
+  <data name="AutoStartDisableError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la tentative de désactivation de la fonction de démarrage automatique.</value>
+  </data>
+  <data name="AutoStartEnableError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la tentative d'activation de la fonction de démarrage automatique.</value>
+  </data>
+  <data name="AutoStartWarning" xml:space="preserve">
+    <value>Cette fonctionnalité cessera de fonctionner si vous supprimez ou déplacez l'analyseur vers un autre emplacement.</value>
+  </data>
+  <data name="BackupError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la tentative d'enregistrement automatique du chatlog.
+
+Assurez-vous d'avoir choisi un répertoire non système pour votre chemin de sauvegarde.</value>
+  </data>
+  <data name="BackupMoveError" xml:space="preserve">
+    <value>Une erreur s'est produite lors du déplacement des fichiers de sauvegarde vers le nouveau répertoire.</value>
+  </data>
+  <data name="BackupStatus" xml:space="preserve">
+    <value>Sauvegarde automatique: {0}</value>
+  </data>
+  <data name="BackupTurnedOff" xml:space="preserve">
+    <value>La sauvegarde automatique a été désactivée, veuillez la configurer à nouveau si vous souhaitez l'utiliser.</value>
+  </data>
+  <data name="BackupWillBeOff" xml:space="preserve">
+    <value>La fonction de sauvegarde automatique sera désactivée lorsque la boîte de dialogue des paramètres est ouverte et les nouveaux paramètres ne seront appliqués qu'une fois que vous aurez fermé la boîte de dialogue des paramètres.
+
+Voulez-vous continuer?</value>
+  </data>
+  <data name="BadBackupPath" xml:space="preserve">
+    <value>Veuillez choisir un répertoire non racine pour votre emplacement de répertoire de sauvegarde.</value>
+  </data>
+  <data name="BadBackupPathSave" xml:space="preserve">
+    <value>Veuillez choisir un emplacement de sauvegarde valide ou désactiver la sauvegarde automatique.</value>
+  </data>
+  <data name="BadDirectoryPath" xml:space="preserve">
+    <value>Veuillez choisir un répertoire non racine pour votre emplacement de répertoire RAGEMP.</value>
+  </data>
+  <data name="Beta" xml:space="preserve">
+    <value>Beta</value>
+  </data>
+  <data name="BetaShort" xml:space="preserve">
+    <value>b</value>
+  </data>
+  <data name="CharacterCounter" xml:space="preserve">
+    <value>{0} caractères et {1} lignes</value>
+  </data>
+  <data name="CurrentTime" xml:space="preserve">
+    <value>Heure actuelle: {0}</value>
+  </data>
+  <data name="Disabled" xml:space="preserve">
+    <value>OFF</value>
+  </data>
+  <data name="Enabled" xml:space="preserve">
+    <value>ON</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Erreur</value>
+  </data>
+  <data name="FacebrowserLink" xml:space="preserve">
+    <value>https://face-fr.gta.world/</value>
+  </data>
+  <data name="FeatureShowcaseLink" xml:space="preserve">
+    <value>https://forum.gta.world/en/index.php?/topic/7690-chat-logs/</value>
+  </data>
+  <data name="FileDeleteError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la tentative de suppression du fichier.</value>
+  </data>
+  <data name="FilterHint" xml:space="preserve">
+    <value>Vous ne pouvez avoir qu'un seul mot, numéro ou paire de noms valide sur chaque ligne si vous souhaitez filtrer votre journal de discussion.
+Exemple: Bateau, 500 $, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterHintNoMatches" xml:space="preserve">
+    <value>Aucun résultat.
+
+Assurez-vous de n'avoir qu'un seul mot, numéro ou paire de noms valide sur chaque ligne.
+Exemple: Bateau, 500 $, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterHintSkipped" xml:space="preserve">
+    <value>Un ou plusieurs mots ont été ignorés lors de l'opération de filtrage car ils ne sont pas dans un format valide.
+
+Assurez-vous de n'avoir qu'un seul mot, numéro ou paire de noms valide sur chaque ligne.
+Exemple: Bateau, 500 $, John, John Doe ou John_Doe</value>
+  </data>
+  <data name="FilterLogStatus" xml:space="preserve">
+    <value>Chatlog {0} chargé {1}</value>
+  </data>
+  <data name="FilterReadError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la lecture du fichier sélectionné.</value>
+  </data>
+  <data name="DirectoryFinder" xml:space="preserve">
+    <value>Le logiciel a trouvé automatiquement votre répertoire RAGEMP à {0}
+
+Veuillez rechercher manuellement le chemin correct si celui-ci est incorrect ou si vous avez plusieurs installations RAGEMP.</value>
+  </data>
+  <data name="DirectoryFinderError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la tentative de recherche automatique de l'emplacement de votre répertoire RAGEMP, veuillez le rechercher manuellement.</value>
+  </data>
+  <data name="DirectoryFinderNotFound" xml:space="preserve">
+    <value>Impossible de détecter le chemin de votre répertoire RAGEMP, veuillez le rechercher manuellement.</value>
+  </data>
+  <data name="DirectoryFinderTitle" xml:space="preserve">
+    <value>Information (First Start)</value>
+  </data>
+  <data name="ForumsLink" xml:space="preserve">
+    <value>https://forum-fr.gta.world/</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="IntervalHint" xml:space="preserve">
+    <value>Sauvegardez automatiquement le journal du chat pendant que le jeu est en cours d'exécution (tous les {0} {1})</value>
+  </data>
+  <data name="IntervalRecommended" xml:space="preserve">
+    <value>{0}. (recommendé)</value>
+  </data>
+  <data name="InvalidDirectoryPath" xml:space="preserve">
+    <value>Chemin du répertoire RAGEMP non valide.</value>
+  </data>
+  <data name="InvalidDirectoryPathBackup" xml:space="preserve">
+    <value>Veuillez choisir un emplacement de répertoire RAGEMP valide avant d'essayer d'activer la sauvegarde automatique.</value>
+  </data>
+  <data name="InvalidDirectoryPathFilter" xml:space="preserve">
+    <value>Veuillez choisir un emplacement de répertoire RAGEMP valide avant d'essayer de filtrer votre journal de discussion.</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="LanguageInfo" xml:space="preserve">
+    <value>La langue choisie sera utilisée pour extraire le journal de discussion du serveur approprié.
+
+Cela signifie que si vous avez choisi l'anglais, vous ne pourrez analyser que le journal de discussion généré à partir du serveur anglais. Vous devrez changer la langue de l'application si vous souhaitez analyser d'autres journaux de discussion.</value>
+  </data>
+  <data name="LoadedAt" xml:space="preserve">
+    <value> à {0}</value>
+  </data>
+  <data name="MainIP" xml:space="preserve">
+    <value>51.178.79.228_22007</value>
+  </data>
+  <data name="MinimizeInsteadOfClose" xml:space="preserve">
+    <value>La fermeture de l'analyseur empêchera les sauvegardes automatiques de se produire.
+
+Souhaitez-vous plutôt réduire l'analyseur dans la barre d'état système?</value>
+  </data>
+  <data name="MinutePlural" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="MinuteSingular" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="MoveBackups" xml:space="preserve">
+    <value>Souhaitez-vous déplacer tous vos fichiers de sauvegarde existants vers le nouveau répertoire?</value>
+  </data>
+  <data name="MultipleChatLogs" xml:space="preserve">
+    <value>Plusieurs répertoires de ressources GTA World ont été trouvés. Il est conseillé d'utiliser une seule adresse IP pour vous connecter au serveur et supprimer l'autre répertoire de ressources.
+
+Conservez "{0}" ou "{1}".</value>
+  </data>
+  <data name="Negation" xml:space="preserve">
+    <value> non</value>
+  </data>
+  <data name="NoChatLog" xml:space="preserve">
+    <value>Impossible de trouver le journal de discussion de GTA World.</value>
+  </data>
+  <data name="NoChatLogLoaded" xml:space="preserve">
+    <value>Vous n'avez pas encore chargé de journal de discussion.</value>
+  </data>
+  <data name="NoInternet" xml:space="preserve">
+    <value>Aucune mise à jour n'a pu être trouvée.
+Essayez de vérifier votre connexion Internet ou d'augmenter le délai de vérification des mises à jour dans la fenêtre des paramètres.
+
+Version installée: {0}</value>
+  </data>
+  <data name="NothingFiltered" xml:space="preserve">
+    <value>Vous n'avez encore rien filtré.</value>
+  </data>
+  <data name="NothingMovedWarning" xml:space="preserve">
+    <value>N'a déplacé aucun répertoire vers le nouvel emplacement</value>
+  </data>
+  <data name="NothingParsed" xml:space="preserve">
+    <value>Vous n'avez encore rien analysé.</value>
+  </data>
+  <data name="NoWordsToFilter" xml:space="preserve">
+    <value>Vous n'avez saisi aucun mot pour filtrer.
+
+Utilisez le filtre simple si vous ne souhaitez pas filtrer les mots.</value>
+  </data>
+  <data name="OldChatLog" xml:space="preserve">
+    <value>Un ancien format a été détecté lors de l'analyse du journal de discussion et il est conseillé de le supprimer ainsi que tous les autres scripts qui n'ont pas été mis à jour correctement.
+
+Souhaitez-vous supprimer ces fichiers?
+(Le fichier journal de discussion sera analysé avant la suppression)</value>
+  </data>
+  <data name="OpenDocumentation" xml:space="preserve">
+    <value>Souhaitez-vous ouvrir la page de documentation de l'analyseur de journal de discussion disponible sur les forums de GTA World?</value>
+  </data>
+  <data name="OtherInstanceRunning" xml:space="preserve">
+    <value>Une autre instance est déjà en cours d'exécution, vérifiez votre barre des tâches ou votre gestionnaire de tâches.</value>
+  </data>
+  <data name="ParseError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de l'analyse du journal de discussion.</value>
+  </data>
+  <data name="PartialMoveWarning" xml:space="preserve">
+    <value>Déplacement des répertoires "{0}" uniquement vers le nouvel emplacement</value>
+  </data>
+  <data name="ProjectLink" xml:space="preserve">
+    <value>https://github.com/therealoggY/GTAWFrance-Assistant-Chatlog</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="ReleasesLink" xml:space="preserve">
+    <value>https://github.com/therealoggY/GTAWFrance-Assistant-Chatlog/releases</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>Redémarrer</value>
+  </data>
+  <data name="RunningLatest" xml:space="preserve">
+    <value>Vous exécutez la dernière version de l'analyseur du journal de discussion.
+
+Version installée: {0}</value>
+  </data>
+  <data name="SameHashWarning" xml:space="preserve">
+    <value>Le même journal de chat a été sauvegardé {0} ou plusieurs fois, ce qui signifie que le script client RAGEMP responsable de la journalisation de votre chat est interrompu.
+
+Cela se produit lorsque vous perdez la connexion Internet ou que le serveur se bloque. Le seul moyen connu de résoudre le problème consiste à supprimer les répertoires de ressources du serveur sur lequel vous jouez.
+
+Les journaux de discussion perdus ne peuvent pas être récupérés.</value>
+  </data>
+  <data name="SaveError" xml:space="preserve">
+    <value>Une erreur s'est produite lors de la tentative d'enregistrement du fichier.</value>
+  </data>
+  <data name="SecondaryIP" xml:space="preserve">
+    <value>play.gta.world_22007</value>
+  </data>
+  <data name="SecondPlural" xml:space="preserve">
+    <value>secondes</value>
+  </data>
+  <data name="SecondSingular" xml:space="preserve">
+    <value>seconde</value>
+  </data>
+  <data name="SettingsAfterClose" xml:space="preserve">
+    <value>Les paramètres ne seront appliqués qu'une fois que vous aurez fermé la boîte de dialogue des paramètres.</value>
+  </data>
+  <data name="SimpleFilter" xml:space="preserve">
+    <value>Filtre simple</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>Début</value>
+  </data>
+  <data name="SuccessfulBackup" xml:space="preserve">
+    <value>Le journal de chat a bien été analysé et sauvegardé sur {0}</value>
+  </data>
+  <data name="SwitchServer" xml:space="preserve">
+    <value>L'analyseur doit redémarrer pour basculer vers le serveur sélectionné.
+
+Souhaitez-vous appliquer les modifications et redémarrer l'application maintenant?</value>
+  </data>
+  <data name="UCPLink" xml:space="preserve">
+    <value>https://ucp-fr.gta.world/</value>
+  </data>
+  <data name="UpdateAbortTime" xml:space="preserve">
+    <value>{0}.</value>
+  </data>
+  <data name="UpdateAvailable" xml:space="preserve">
+    <value>Une nouvelle version de l'analyseur de journal de discussion est désormais disponible sur GitHub.
+
+Version installée: {0}
+Version disponible: {1}
+
+Souhaitez-vous visiter la page des communiqués maintenant?</value>
+  </data>
+  <data name="UpdateAvailableTitle" xml:space="preserve">
+    <value>Mise à jour disponible</value>
+  </data>
+  <data name="VersionInfo" xml:space="preserve">
+    <value>{0}{1}</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Avertissement</value>
+  </data>
+</root>
