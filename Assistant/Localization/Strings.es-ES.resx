@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="MainIP" xml:space="preserve">
-    <value>51.178.79.228_22007</value>
+    <value>164.132.206.209_22007</value>
   </data>
   <data name="SecondaryIP" xml:space="preserve">
-    <value>play.gta.world:22007</value>
+    <value>play.gta.world_22007</value>
   </data>
 </root>

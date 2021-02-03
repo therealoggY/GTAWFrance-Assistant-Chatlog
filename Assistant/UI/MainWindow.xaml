@@ -61,9 +61,9 @@
 
     <DockPanel>
         <Menu x:Name="MenuStrip" DockPanel.Dock="Top">
-            <MenuItem x:Name="CheckForUpdatesToolStripMenuItem" Header="Rechercher des mises à jour" Click="CheckForUpdatesToolStripMenuItem_Click"/>
+            <MenuItem x:Name="CheckForUpdatesToolStripMenuItem" Header="Rechercher des mises à jours" Click="CheckForUpdatesToolStripMenuItem_Click" Width="193"/>
             <MenuItem x:Name="BackupSettingsToolStripMenuItem" Header="Paramètres de sauvegarde automatique" Click="BackupSettingsToolStripMenuItem_Click"/>
-            <MenuItem x:Name="FilterChatLogToolStripMenuItem" Header="Filtrer le chat log" Click="FilterChatLogToolStripMenuItem_Click"/>
+            <MenuItem x:Name="FilterChatLogToolStripMenuItem" Header="Filtrer le chatlog" Click="FilterChatLogToolStripMenuItem_Click"/>
             <MenuItem x:Name="LanguageToolStripMenuItem" Header="Changer serveur" Visibility="Collapsed"/>
             <MenuItem x:Name="AboutToolStripMenuItem" Header="A propos" Click="AboutToolStripMenuItem_Click"/>
             <MenuItem x:Name="ExitToolStripMenuItem" Header="Quitter" Visibility="Hidden" Click="ExitToolStripMenuItem_Click"/>
@@ -82,7 +82,7 @@
                                    VerticalAlignment="Top"
                                    Visibility="Collapsed" Margin="210,145,0,0"/>
 
-            <Label x:Name="PathLabel" Content="Chemin de RAGEMP :" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="298,0,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="PathLabel" Content="Racine d'installation de RAGEMP :" HorizontalContentAlignment="Left" HorizontalAlignment="Left" Margin="298,0,0,0" VerticalAlignment="Top"/>
             <TextBlock x:Name="Version" TextWrapping="NoWrap" Text="v1.0.0" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="549,5,0,0" Height="26"/>
             <TextBox x:Name="DirectoryPath" MouseLeftButtonUp="DirectoryPath_MouseLeftButtonUp" TextChanged="DirectoryPath_TextChanged" HorizontalAlignment="Left" Height="23" Margin="303,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" IsReadOnly="True" VerticalScrollBarVisibility="Disabled"/>
             <Button x:Name="Browse" Click="Browse_Click" Content="Naviguer" HorizontalAlignment="Left" Margin="549,23,0,0" VerticalAlignment="Top" Width="75"/>

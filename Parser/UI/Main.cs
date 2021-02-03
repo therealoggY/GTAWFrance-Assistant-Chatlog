@@ -249,5 +249,10 @@ namespace Parser.UI
             MessageBox.Show(string.Format(Strings.About, ProgramController.Version, ProgramController.IsBetaVersion ? Strings.Beta : string.Empty, ProgramController.ResourceDirectory), Strings.Information, MessageBoxButtons.OK, MessageBoxIcon.Information);
 #pragma warning restore 162
         }
+
+        private void PathLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

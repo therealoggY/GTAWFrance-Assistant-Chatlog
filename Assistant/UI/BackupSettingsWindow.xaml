@@ -13,7 +13,7 @@
                       WindowTransitionsEnabled="True"
                       BorderThickness="0" 
                       GlowBrush="Black"
-                      Title="Paramètres de sauvegarde automatique" Height="305.994" Width="476" ShowInTaskbar="True" IsMaxRestoreButtonEnabled="False" IsMinButtonEnabled="False" TitleCaps="False" ShowIconOnTitleBar="False" Icon="../Resources/AppIcon.ico">
+                      Title="Paramètres de sauvegarde automatique" Height="305.994" Width="622.967" ShowInTaskbar="True" IsMaxRestoreButtonEnabled="False" IsMinButtonEnabled="False" TitleCaps="False" ShowIconOnTitleBar="False" Icon="../Resources/AppIcon.ico">
 
     <Controls:MetroWindow.WindowButtonCommands>
         <Controls:WindowButtonCommands 
@@ -26,17 +26,17 @@
         <TextBox x:Name="BackupPath" MouseLeftButtonUp="BackupPath_MouseLeftButtonUp" TextChanged="BackupPath_TextChanged" HorizontalAlignment="Left" Height="23" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="370" IsReadOnly="True" VerticalScrollBarVisibility="Disabled"/>
         <Button x:Name="Browse" Click="Browse_Click" Content="Naviguer" HorizontalAlignment="Left" Margin="385,36,0,0" VerticalAlignment="Top" Width="75"/>
         <CheckBox x:Name="BackUpChatLogAutomatically" Checked="BackUpChatLogAutomatically_CheckedChanged" Unchecked="BackUpChatLogAutomatically_CheckedChanged" Content="Analyser et sauvegarder automatiquement le chatlog (à la fermeture du jeu)" HorizontalAlignment="Left" Margin="10,68,0,0" VerticalAlignment="Top" Width="450"/>
-        <CheckBox x:Name="EnableIntervalBackup" Checked="EnableIntervalBackup_CheckedChanged" Unchecked="EnableIntervalBackup_CheckedChanged" Content="Sauvegardez automatiquement le chatlog pendant que le jeu est en cours d'exécution (toutes les 10 minutes)" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
+        <CheckBox x:Name="EnableIntervalBackup" Checked="EnableIntervalBackup_CheckedChanged" Unchecked="EnableIntervalBackup_CheckedChanged" Content="Sauvegardez automatiquement le chatlog pendant que le jeu est en cours d'exécution (toutes les 10 minutes)" HorizontalAlignment="Left" Margin="10,91,0,0" VerticalAlignment="Top" Width="608" IsEnabled="False"/>
         <Label x:Name="IntervalLabel1" Content="Sauvegardez le chatlog tous les" HorizontalAlignment="Left" Margin="5,114,0,0" VerticalAlignment="Top" Width="132"/>
         <xctk:IntegerUpDown ValueChanged="Interval_ValueChanged" TextAlignment="Center" x:Name="Interval" Margin="138,116,0,0" Maximum="60" Minimum="1" Value="10" Text="10" IsEnabled="False" HorizontalAlignment="Left" Width="45" Height="26" VerticalAlignment="Top" />
         <Label x:Name="IntervalLabel2" Content="minutes. (recommandé)" HorizontalAlignment="Left" Margin="189,114,0,0" VerticalAlignment="Top" Width="271"/>
         <CheckBox x:Name="RemoveTimestamps" Content="Supprimer les horodatages (timestamps) de la sauvegarde" HorizontalAlignment="Left" Margin="10,145,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
         <CheckBox x:Name="SuppressNotifications" Content="Supprimer les notifications de sauvegarde réussies" HorizontalAlignment="Left" Margin="10,168,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
         <CheckBox x:Name="AlwaysCloseToTray" Content="Mise en arrière plan de l'application (System Tray)" HorizontalAlignment="Left" Margin="10,214,0,0" VerticalAlignment="Top" Width="290" IsEnabled="False"/>
-        <CheckBox x:Name="StartWithWindows" Checked="StartWithWindows_CheckedChanged" Unchecked="StartWithWindows_CheckedChanged" Content="Démarrer l'application à l'ouverture de Windows (minimisé)" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top" Width="290" IsEnabled="False"/>
+        <CheckBox x:Name="StartWithWindows" Checked="StartWithWindows_CheckedChanged" Unchecked="StartWithWindows_CheckedChanged" Content="Démarrer l'application à l'ouverture de Windows (minimisé)" HorizontalAlignment="Left" Margin="10,237,0,0" VerticalAlignment="Top" Width="347" IsEnabled="False"/>
 
-        <Button x:Name="CloseWindow" Click="CloseWindow_Click" Content="Fermer" HorizontalAlignment="Left" Margin="385,233,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="Reset" Click="Reset_Click" Content="Réinitialiser" HorizontalAlignment="Left" Margin="305,233,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="CloseWindow" Click="CloseWindow_Click" Content="Fermer" HorizontalAlignment="Left" Margin="534,242,0,0" VerticalAlignment="Top" Width="70"/>
+        <Button x:Name="Reset" Click="Reset_Click" Content="Réinitialiser" HorizontalAlignment="Left" Margin="451,242,0,0" VerticalAlignment="Top" Width="80"/>
         <CheckBox x:Name="WarnWithHash" Content="Avertir lorsque le même chatlog a été enregistré 2 fois ou plus" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" Width="450" IsEnabled="False"/>
     </Grid>
 </Controls:MetroWindow>

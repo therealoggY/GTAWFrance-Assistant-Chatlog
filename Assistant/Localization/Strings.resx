@@ -230,7 +230,7 @@ Veuillez rechercher manuellement le chemin correct si celui-ci est incorrect ou 
     <value>Impossible de détecter le chemin de votre répertoire RAGEMP, veuillez le rechercher manuellement.</value>
   </data>
   <data name="DirectoryFinderTitle" xml:space="preserve">
-    <value>Information (First Start)</value>
+    <value>Information (Première fois)</value>
   </data>
   <data name="ForumsLink" xml:space="preserve">
     <value>https://forum-fr.gta.world/</value>
@@ -265,7 +265,7 @@ Cela signifie que si vous avez choisi l'anglais, vous ne pourrez analyser que le
     <value> à {0}</value>
   </data>
   <data name="MainIP" xml:space="preserve">
-    <value>51.178.79.228_22007</value>
+    <value>164.132.206.209_22007</value>
   </data>
   <data name="MinimizeInsteadOfClose" xml:space="preserve">
     <value>La fermeture de l'analyseur empêchera les sauvegardes automatiques de se produire.

@@ -220,7 +220,7 @@
     <value>4, 4, 4, 4</value>
   </data>
   <data name="CopyParsedToClipboard.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 31</value>
+    <value>110, 31</value>
   </data>
   <data name="CopyParsedToClipboard.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -307,13 +307,13 @@
     <value>4, 0, 4, 0</value>
   </data>
   <data name="PathLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>131, 17</value>
+    <value>221, 17</value>
   </data>
   <data name="PathLabel.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="PathLabel.Text" xml:space="preserve">
-    <value>Direction RAGEMP:</value>
+    <value>Racine d'installation de RAGEMP:</value>
   </data>
   <data name="&gt;&gt;PathLabel.Name" xml:space="preserve">
     <value>PathLabel</value>
@@ -361,7 +361,7 @@
     <value>True</value>
   </data>
   <data name="RemoveTimestamps.Location" type="System.Drawing.Point, System.Drawing">
-    <value>344, 226</value>
+    <value>351, 226</value>
   </data>
   <data name="RemoveTimestamps.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -406,7 +406,7 @@
     <value>False</value>
   </data>
   <data name="AboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 26</value>
+    <value>84, 24</value>
   </data>
   <data name="AboutToolStripMenuItem.Text" xml:space="preserve">
     <value>A propos</value>

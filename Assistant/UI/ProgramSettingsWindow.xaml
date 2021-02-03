@@ -13,7 +13,7 @@
                       WindowTransitionsEnabled="True"
                       BorderThickness="0" 
                       GlowBrush="Black"
-                      Title="Paramètres du programme" Height="308" Width="520" ShowInTaskbar="True" IsMaxRestoreButtonEnabled="False" IsMinButtonEnabled="False" TitleCaps="False" ShowIconOnTitleBar="False" Icon="../Resources/AppIcon.ico">
+                      Title="Paramètres du programme" Height="296.119" Width="600.796" ShowInTaskbar="True" IsMaxRestoreButtonEnabled="False" IsMinButtonEnabled="False" TitleCaps="False" ShowIconOnTitleBar="False" Icon="../Resources/AppIcon.ico">
 
     <Controls:MetroWindow.WindowButtonCommands>
         <Controls:WindowButtonCommands 
@@ -32,19 +32,19 @@
         <CheckBox x:Name="DisableUCPButton" Checked="DisableUCPButton_CheckedChanged" Unchecked="DisableUCPButton_CheckedChanged" Content="Désactiver l'icône de l'UCP" HorizontalAlignment="Left" Margin="10,84,0,0" VerticalAlignment="Top" Width="193"/>
         <CheckBox x:Name="DisableReleasesButton" Checked="DisableReleasesButton_CheckedChanged" Unchecked="DisableReleasesButton_CheckedChanged" Content="Désactiver l'icône de page de versions" HorizontalAlignment="Left" Margin="10,107,0,0" VerticalAlignment="Top" Width="193"/>
         <CheckBox x:Name="DisableProjectButton" Checked="DisableProjectButton_CheckedChanged" Unchecked="DisableProjectButton_CheckedChanged" Content="Désactiver l'icône de page du projet" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="193"/>
-        <CheckBox x:Name="DisableInformationPopups" Content="Désactiver la plupart des fenêtres d'informations" HorizontalAlignment="Left" Margin="235,38,0,0" VerticalAlignment="Top" Width="281"/>
-        <CheckBox x:Name="DisableWarningPopups" Content="Désactiver la plupart des fenêtres d'avertissement" HorizontalAlignment="Left" Margin="235,61,0,0" VerticalAlignment="Top" Width="281"/>
+        <CheckBox x:Name="DisableInformationPopups" Content="Désactiver la plupart des fenêtres d'informations" HorizontalAlignment="Left" Margin="235,38,0,0" VerticalAlignment="Top" Width="325"/>
+        <CheckBox x:Name="DisableWarningPopups" Content="Désactiver la plupart des fenêtres d'avertissement" HorizontalAlignment="Left" Margin="235,61,0,0" VerticalAlignment="Top" Width="325"/>
         <CheckBox x:Name="DisableErrorPopups" Content="Désactiver la plupart des fenêtres d'erreur" HorizontalAlignment="Left" Margin="235,84,0,0" VerticalAlignment="Top" Width="281"/>
         <Label x:Name="TimeoutLabel1" Content="Abandonner la recherche de mises à jour après" HorizontalAlignment="Left" Margin="230,107,0,0" VerticalAlignment="Top" Width="195"/>
         <xctk:IntegerUpDown ValueChanged="Timeout_ValueChanged" TextAlignment="Center" x:Name="Timeout" Margin="413,108,0,0" Maximum="60" Minimum="1" Value="4" Text="4" Height="26" VerticalAlignment="Top" HorizontalAlignment="Left" Width="45" />
-        <Label x:Name="TimeoutLabel2" Content="secondes." HorizontalAlignment="Left" Margin="459,107,0,0" VerticalAlignment="Top" Width="57"/>
+        <Label x:Name="TimeoutLabel2" Content="secondes." HorizontalAlignment="Left" Margin="459,107,0,0" VerticalAlignment="Top" Width="116"/>
         <CheckBox x:Name="IgnoreBetaVersions" Content="Abandonner la recherche de mises à jour betak" HorizontalAlignment="Left" Margin="235,138,-2,0" VerticalAlignment="Top" Width="281"/>
-        <CheckBox x:Name="FollowSystemColor" IsEnabled="False" Checked="FollowSystemColor_CheckedChanged" Unchecked="FollowSystemColor_CheckedChanged" Content="Utiliser la couleur d'accentuation du système (Windows 10)" HorizontalAlignment="Left" Margin="235,161,-2,0" VerticalAlignment="Top" Width="281"/>
-        <CheckBox x:Name="FollowSystemMode" IsEnabled="False" Checked="FollowSystemMode_CheckedChanged" Unchecked="FollowSystemMode_CheckedChanged" Content="Suivre la couleur d'accentuation du système (Windows 10)" HorizontalAlignment="Left" Margin="235,184,-2,0" VerticalAlignment="Top" Width="281"/>
+        <CheckBox x:Name="FollowSystemColor" IsEnabled="False" Checked="FollowSystemColor_CheckedChanged" Unchecked="FollowSystemColor_CheckedChanged" Content="Utiliser la couleur d'accentuation du système (Windows 10)" HorizontalAlignment="Left" Margin="235,161,0,0" VerticalAlignment="Top" Width="340"/>
+        <CheckBox x:Name="FollowSystemMode" IsEnabled="False" Checked="FollowSystemMode_CheckedChanged" Unchecked="FollowSystemMode_CheckedChanged" Content="Suivre la couleur d'accentuation du système (Windows 10)" HorizontalAlignment="Left" Margin="235,184,0,0" VerticalAlignment="Top" Width="340"/>
         <ComboBox x:Name="Themes" IsEnabled="False" SelectionChanged="Themes_SelectionChanged" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Width="193"/>
         <CheckBox x:Name="ToggleDarkMode" IsEnabled="False" Checked="ToggleDarkMode_CheckedChanged" Unchecked="ToggleDarkMode_CheckedChanged" Content="Mode sombre" HorizontalAlignment="Left" Margin="10,239,0,0" VerticalAlignment="Top" Width="193"/>
 
-        <Button x:Name="CloseWindow" Click="CloseWindow_Click" Content="Fermer" HorizontalAlignment="Left" Margin="430,235,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="Reset" Click="Reset_Click" Content="Réinitialiser" HorizontalAlignment="Left" Margin="350,235,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="CloseWindow" Click="CloseWindow_Click" Content="Fermer" HorizontalAlignment="Left" Margin="511,235,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Reset" Click="Reset_Click" Content="Réinitialiser" HorizontalAlignment="Left" Margin="431,235,0,0" VerticalAlignment="Top" Width="75"/>
     </Grid>
 </Controls:MetroWindow>

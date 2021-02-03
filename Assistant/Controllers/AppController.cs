@@ -38,7 +38,7 @@ namespace Assistant.Controllers
             try
             {
                 ResourceDirectory = "Not Found";
-                LogLocation = $"client_resources\\{@"play.gta.world_22005"}\\.storage";
+                LogLocation = $"client_resources\\{@"play.gta.world_22007"}\\.storage";
 
                 // Return if the user has not picked
                 // a RAGEMP directory path yet

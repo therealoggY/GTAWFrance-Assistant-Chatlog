@@ -259,7 +259,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à Information (First Start).
+        ///   Recherche une chaîne localisée semblable à Information (Première fois).
         /// </summary>
         internal static string DirectoryFinderTitle {
             get {
@@ -466,7 +466,7 @@ namespace Assistant.Localization {
         }
         
         /// <summary>
-        ///   Recherche une chaîne localisée semblable à 51.178.79.228_22007.
+        ///   Recherche une chaîne localisée semblable à 164.132.206.209_22007.
         /// </summary>
         internal static string MainIP {
             get {

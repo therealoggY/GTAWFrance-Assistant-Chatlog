@@ -94,6 +94,7 @@
             // 
             resources.ApplyResources(this.PathLabel, "PathLabel");
             this.PathLabel.Name = "PathLabel";
+            this.PathLabel.Click += new System.EventHandler(this.PathLabel_Click);
             // 
             // Version
             // 

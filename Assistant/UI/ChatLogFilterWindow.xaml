@@ -23,9 +23,9 @@
     <Grid>
         <Label x:Name="StatusLabel" Content="Chatlog non chargé" FontWeight="DemiBold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="329" Foreground="Red"/>
         <Label x:Name="TimeLabel" Content="Heure actuelle : 23:23:23" HorizontalContentAlignment="Right" HorizontalAlignment="Left" Margin="344,10,0,0" VerticalAlignment="Top" Width="140"/>
-        <Button x:Name="LoadUnparsed" Click="LoadUnparsed_Click" Content="Charger le chatlog non analysé" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="150"/>
-        <Button x:Name="BrowseForParsed" Click="BrowseForParsed_Click" Content="Rechercher le chatlog analysé" HorizontalAlignment="Left" Margin="165,41,0,0" VerticalAlignment="Top" Width="174"/>
-        <Button x:Name="FilterModeToggle" Click="FilterModeToggle_Click" Content="Filtre avancé" HorizontalAlignment="Left" Margin="344,41,0,0" VerticalAlignment="Top" Width="140"/>
+        <Button x:Name="LoadUnparsed" Click="LoadUnparsed_Click" Content="Charger le chatlog non filtré" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="BrowseForParsed" Click="BrowseForParsed_Click" Content="Rechercher le chatlog filtré" HorizontalAlignment="Left" Margin="165,41,0,0" VerticalAlignment="Top" Width="197"/>
+        <Button x:Name="FilterModeToggle" Click="FilterModeToggle_Click" Content="Filtre avancé" HorizontalAlignment="Left" Margin="367,41,0,0" VerticalAlignment="Top" Width="117"/>
         <TextBox x:Name="Filtered" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="179" Margin="165,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="319" AcceptsReturn="True"/>
 
 
@@ -42,7 +42,7 @@
         <CheckBox x:Name="None4" IsEnabled="False" Visibility="Hidden" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Aucun" HorizontalAlignment="Left" Margin="90,188,0,0" VerticalAlignment="Top" Width="70"/>
 
         <CheckBox x:Name="Other" Checked="Criterion_CheckedChanged" Unchecked="Criterion_CheckedChanged" Content="Autre (pas ci-dessus)" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="150"/>
-        <CheckBox x:Name="RemoveTimestamps" Checked="RemoveTimestamps_CheckedChanged" Unchecked="RemoveTimestamps_CheckedChanged" Content="Enelever les timestamps" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="150"/>
+        <CheckBox x:Name="RemoveTimestamps" Checked="RemoveTimestamps_CheckedChanged" Unchecked="RemoveTimestamps_CheckedChanged" Content="Enlever les timestamps" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" Width="150"/>
 
 
         <Button x:Name="SaveFiltered" Click="SaveFiltered_Click" Content="Sauvgarder sous" HorizontalAlignment="Left" Margin="10,257,0,0" VerticalAlignment="Top" Width="150"/>
